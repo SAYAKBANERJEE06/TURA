@@ -1,0 +1,356 @@
+*{
+  margin:0px;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100vh;
+  width: 96vw;
+}
+#main{
+  height: 100vh;
+  width:0vh;
+}
+#main1 {
+  height: 100vh;
+  width: 98.7vw;
+}
+#pic{
+  height: 100vh;
+  width: 100%;
+  background-image:url(hi.png);
+  background-size: cover;
+  background-position: center;
+}
+#nap{
+height: 10vh;
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+#napunder-div1{
+height: 10vh;
+width: 15vh;
+}
+
+#napunder-div2{
+height: 10vh;
+width: 25vw;
+display: flex;
+justify-content: space-around;
+}
+#pro{
+ height: 10vh;
+ width: 8vw;
+}
+#TU{
+color: white;
+margin-left: 2vh;
+margin-top: 2vh;
+}
+#RA{
+color: white;
+margin-left: 2vh;
+}
+#pro{
+color: white;
+}
+#pro h3{
+margin-top: 3vh;
+font-size: 1.5vh;
+transition:font-size 1s,color 1s ease-in-out;
+}
+#pro h3:hover{
+font-size: 2vh;
+transform: translateX(-5px);
+cursor: grab;
+color: tomato;
+}
+#TURA{
+color: white;
+ margin-left: 60vh; 
+margin-top: 28vh;
+font-size: 10vh;
+}
+#TURA span{
+transition:font-family 1s,color 0.4s ease-in-out;
+}
+#T:hover{
+font-family: "Tiny5", sans-serif;
+color:red;
+}
+#U:hover{
+font-family: "Roboto Slab", serif;
+color: darkblue;
+}
+#R:hover{
+font-family: "Libre Barcode 128 Text", system-ui;
+color: rgb(243, 243, 181);
+}
+#A:hover{
+font-family: "Jacquard 12", system-ui;
+color: cyan;
+}
+#AJ span{
+height: 10vh;
+width: 8vh;
+color: white;
+font-family: Arial;
+margin-left: 90vh;
+}
+#WD span{
+height: 10vh;
+width: 8vh;
+font-family: Arial;
+margin-left: 93vh;
+color: white;
+}
+#unap{
+height:25vh;
+width: 98.7vw;
+margin-top: 7vh;
+display: flex;
+justify-content: space-between;
+}
+#unap-div1{
+height: 20vh;
+width:30vh;
+font-size: 3vh;
+margin-left: 4vh;
+}
+.spg{
+height: 5vh;
+width: 8vh;
+color: white;
+transition: font-size 0.5s,color 0.7s,transform 0.5s  ease-in-out ;
+}
+.spg a{
+text-decoration: inherit;
+color: inherit;
+}
+#facebook:hover{
+font-size: 5vh;
+color: skyblue;
+transform:translateY(3px);
+}
+#twitter:hover{
+font-size: 5vh;
+color: black;
+transform:translateY(3px);
+}
+#git:hover{
+font-size: 5vh;
+color:gray;
+transform:translateY(3px);
+}
+
+#unap-div2{
+height: 25vh;
+width:30vh;
+
+}
+#sc{
+height: 3vh;
+width: 3vh;
+color: white;
+rotate: 90deg;
+margin-left: 20vh;
+}
+#l{
+height: 6vh;
+width: 1px;
+background-color:white ;
+margin-left:21.5vh ;
+margin-top: 7vh;
+}
+#m{
+margin-left:20.5vh;
+font-size: 2.7vh;
+margin-top: 1.5vh;
+color: white;
+}
+#main2{
+height: 100vh;
+width: 98.7vw;
+}
+#pic2{
+  height: 100vh;
+  width: 100%;
+ background-image:url(hi.png);
+ background-size: cover;
+ background-position: center;
+}
+#mom{
+  height: 40vh;
+  width: 60vw;
+  margin-left: 35vh;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+.boss{
+  height: 40vh;
+  width: 35vh;
+}
+#as1{
+  background-repeat: no-repeat;
+  transition: height 0.8s,width 1.2s,box-shadow 1.2s ease-in-out
+}
+#as1 img{
+  height: 40vh;
+  width: 35vh;
+  z-index: 1;
+  transition: height 0.8s,width 1.2s,transform 0.8s ease-in-out;
+  border-radius: 10px;
+}
+#blur1{
+  height: 40vh;
+  width: 35vh;
+  z-index: 4;
+  background-color: rgba(0, 255, 255, 0.113);
+  position: absolute;
+  bottom: -60vh;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  transition: height 0.8s,width 0.8s,transform 0.8s ease-in-out;
+}
+#blur11{
+  height: 1vh;
+  width: 35vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.078),rgba(255, 255, 255, 0));
+  color: white;
+  margin-top:30vh;
+  position: absolute;
+  bottom: -60vh;
+  z-index: 5;
+  visibility: hidden;
+  transition: height 0.8s ease-in-out;
+}
+#as1:hover #blur1{
+  backdrop-filter: inherit;
+ background-color: rgba(0, 255, 255, 0);
+ height:42vh;
+ width: 41vh;
+ transform: translateX(-10px); 
+}
+#as1:hover #blur11{
+  height: 5vh;
+  visibility: visible;
+}
+#as1:hover img{
+  height: 45vh;
+  width: 40vh;
+  transform: translateX(-10px);
+}
+#as2 img{
+  height: 40vh;
+  width: 35vh;
+  position: absolute;
+   z-index: 2;
+   border-radius: 10px; 
+  transition:transform 0.8s ease-in-out;
+}
+#blur2{
+  height: 40vh;
+  width: 35vh;
+  z-index: 4;
+  border-radius: 10px;
+  background-color: rgba(0, 255, 255, 0.113);
+  position: absolute;
+  bottom: -60vh;
+  backdrop-filter: blur(10px);
+  transition: height 0.8s,width 0.8s,transform 0.8s ease-in-out;
+}
+#kc{
+  height: 5vh;
+  width: 35vh;
+  position: absolute;
+  bottom: -60vh;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+}
+#kc h1{
+  font-family: "DM Serif Text", serif;
+  letter-spacing: 0.6vh;
+  font-size: 4.5vh;
+  color: white;
+}
+#as2:hover #blur2{
+  height: 40vh;
+  width: 35vh;
+  background-color: rgba(0, 255, 255, 0.113);
+  backdrop-filter: inherit;
+  transform: translateY(-40px);
+}
+#as2:hover img{
+transform: translateY(-40px);
+}
+#as2:hover #kc {
+visibility: visible;
+z-index: 1;
+}
+#as3 img{
+  height: 40vh;
+  width: 35vh;
+  z-index: 1;
+  border-radius: 10px;
+  transition: height 0.8s,width 1.2s,transform 0.8s ease-in-out;
+}
+#blur3{
+  height: 40vh;
+  width: 35vh;
+  border-radius: 10px;
+  z-index: 4;
+  background-color: rgba(0, 255, 255, 0.113);
+  position: absolute;
+  bottom: -60vh;
+  backdrop-filter: blur(10px);
+  transition: height 0.8s,width 0.8s,transform 0.8s ease-in-out;
+}
+#blur33{
+  height: 1vh;
+  width: 35vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.078),rgba(255, 255, 255, 0));
+  color: white;
+  margin-top:30vh;
+  position: absolute;
+  bottom: -60vh;
+  z-index: 5;
+  visibility: hidden;
+  transition: height 0.8s ease-in-out;
+}
+#as3:hover #blur3{
+  backdrop-filter: inherit;
+  background-color: rgba(0, 255, 255, 0);
+  height:40vh;
+  width: 35vh;
+  transform: translateX(-10px); 
+}
+#as3:hover #blur33{
+  height: 5vh;
+  visibility: visible;
+}
+#as3:hover img{
+  height: 40vh;
+  width: 35vh;
+  transform: translateX(-10px);
+}
+#mom1{
+  height: 27vh;
+  width: 98.7vw;
+  display: flex;
+  background-color: red;
+}
+#hnap{
+  height: 27vh;
+  width: 13vh;
+  background-color: yellow;
+}
+
+
+
+
+
+
