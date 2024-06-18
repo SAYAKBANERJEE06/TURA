@@ -175,6 +175,10 @@ font-size: 2.7vh;
 margin-top: 1.5vh;
 color: white;
 }
+#m a {
+  text-decoration: none;
+  color: inherit;
+}
 #main2{
 height: 100vh;
 width: 100vw;
@@ -475,6 +479,9 @@ z-index: 1;
   border: none;
   color: rgb(252, 252, 252);
   font-weight:600;
+  width: 60vh;
+  height: 5vh;
+  text-decoration: none;
 }
 .foko input::placeholder{
   color: aliceblue;
