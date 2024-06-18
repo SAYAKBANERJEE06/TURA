@@ -5,7 +5,7 @@
 }
 html,body{
   height: 100vh;
-  width: 96vw;
+  width: 100vw;
 }
 #main{
   height: 100vh;
@@ -13,7 +13,7 @@ html,body{
 }
 #main1 {
   height: 100vh;
-  width: 98.7vw;
+  width: 100vw;
 }
 #pic{
   height: 100vh;
@@ -107,7 +107,7 @@ color: white;
 }
 #unap{
 height:25vh;
-width: 98.7vw;
+width: 100vw;
 margin-top: 7vh;
 display: flex;
 justify-content: space-between;
@@ -171,7 +171,7 @@ color: white;
 }
 #main2{
 height: 100vh;
-width: 98.7vw;
+width: 100vw;
 }
 #pic2{
   height: 100vh;
@@ -339,7 +339,7 @@ z-index: 1;
 }
 #mom1{
   height: 27vh;
-  width: 98.7vw;
+  width: 100vw;
   display: flex;
 
 }
@@ -375,7 +375,7 @@ z-index: 1;
 }
 #main3{
   height: 100vh;
-  width: 98.7vw;
+  width: 100vw;
 }
 #pic3{
   height: 100vh;
@@ -386,15 +386,18 @@ z-index: 1;
 }
 #contact{
   height: 80vh;
-  width: 98.7vw;
-  background-color: yellow;
+  width: 100vw;
+  /* background-color: yellow; */
   display: flex;
   justify-content: space-between;
 }
 .buddy{
   height: 70vh;
+
   width: 40vw;
-  background-color: red;
+  margin-left: 20vh;
+  margin-top: 5vh;
+  /* background-color: red; */
 }
 #con{
  margin-left: 25vh;
@@ -445,16 +448,54 @@ z-index: 1;
   background-image: url(hi.png);
   margin-right: 7vh;
   margin-top: 5vh;
-  box-shadow: rgb(153, 153, 155) 0px 0px 0px 2px inset, rgb(170, 166, 166) 10px -10px 0px -3px, rgb(144, 145, 144) 10px -10px, rgb(148, 146, 146) 20px -20px 0px -3px, rgb(127, 127, 125) 20px -20px, rgb(141, 139, 139) 30px -30px 0px -3px, rgb(127, 126, 125) 30px -30px, rgb(121, 119, 119) 40px -40px 0px -3px, rgb(127, 125, 125) 40px -40px;
+  box-shadow:  rgba(255, 255, 255, 0.25) 0px 5px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 #cf{
+  margin-top: 2vh;
   color: white;
   font-family: arial;
   margin-left: 20vh;
 }
+.foko{
+  margin-top: 5vh;
+  
+  border: none;
+  border-bottom: 0.1vh solid;
+  
+  border-color: rgb(255, 255, 255);
+}
+.foko input{
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  color: rgb(252, 252, 252);
+  font-weight:600;
+}
+.foko input::placeholder{
+  color: aliceblue;
+}
+#foko{
+  /* background-color: blue; */
+  height: 30vh;
+  width: 60vh;
+  margin-top: 8vh;
+  margin-left: 9vh;
+}
 
-
-
+#sm{
+margin-top: 10vh;
+}
+#sm button{
+  color: aliceblue;
+  height: 6vh;
+  width: 10vw;
+  margin-left: 28vh;
+  background-image: url(hi.png);
+  border: none;
+  box-shadow: rgba(250, 246, 246, 0.05) 0px 4px 16px, rgba(255, 255, 255, 0.05) 0px 8px 32px;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
 
 
 
