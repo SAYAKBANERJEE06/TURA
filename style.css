@@ -341,13 +341,120 @@ z-index: 1;
   height: 27vh;
   width: 98.7vw;
   display: flex;
-  background-color: red;
+
 }
 #hnap{
   height: 27vh;
   width: 13vh;
-  background-color: yellow;
+  margin-left:6vh;
+  font-size: 3vh;
+  margin-top: 5vh;
 }
+#context{
+  height: 15vh;
+  width: 120vh;
+  margin-left: 19vh;
+  margin-top: 6vh;
+  color: white;
+}
+#vp button{
+  background-image: url(hi.png);
+  color: white;
+  height: 7vh;
+  width: 30vh;
+  margin-left: 40vh;
+  margin-top: 2vh;
+  color: white;
+}
+#vp:hover button{
+  box-shadow: rgba(146, 143, 143, 0.25) 0px 14px 28px, rgba(138, 135, 135, 0.22) 0px 10px 10px;
+}
+#mom-div2{
+  margin-top: 4vh;
+  padding-right: 7vh;
+}
+#main3{
+  height: 100vh;
+  width: 98.7vw;
+}
+#pic3{
+  height: 100vh;
+  width: 100%;
+  background-image:url(hi.png);
+  background-size: cover;
+  background-position: center;
+}
+#contact{
+  height: 80vh;
+  width: 98.7vw;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+}
+.buddy{
+  height: 70vh;
+  width: 40vw;
+  background-color: red;
+}
+#con{
+ margin-left: 25vh;
+ margin-top: 8vh;
+ font-family: arial;
+ color: white;
+}
+#con-1{
+  color: white;
+  width: 35vw;
+  margin-left: 4vh;
+  margin-top: 5vh;
+}
+#address{
+  margin-left: 27vh;
+  font-family: arial;
+ color: white;
+ margin-top: 4vh;
+}
+#Ad{
+  margin-left: 7vh;
+  margin-top: 2vh;
+  color: white;
+}
+#phone{
+  margin-left: 29vh;
+  margin-top: 3vh;
+  font-family: arial;
+  color: white;
+}
+#ph{
+  margin-left: 27vh;
+  margin-top: 1vh;
+  color: white;
+}
+#email{
+  margin-left: 29vh;
+  margin-top: 2vh;
+  font-family: arial;
+  color: white;
+}
+#em{
+  margin-left: 24vh;
+  margin-top: 1vh;
+  color: white;
+}
+#contact-2{
+  background-image: url(hi.png);
+  margin-right: 7vh;
+  margin-top: 5vh;
+  box-shadow: rgb(153, 153, 155) 0px 0px 0px 2px inset, rgb(170, 166, 166) 10px -10px 0px -3px, rgb(144, 145, 144) 10px -10px, rgb(148, 146, 146) 20px -20px 0px -3px, rgb(127, 127, 125) 20px -20px, rgb(141, 139, 139) 30px -30px 0px -3px, rgb(127, 126, 125) 30px -30px, rgb(121, 119, 119) 40px -40px 0px -3px, rgb(127, 125, 125) 40px -40px;
+}
+#cf{
+  color: white;
+  font-family: arial;
+  margin-left: 20vh;
+}
+
+
+
 
 
 
