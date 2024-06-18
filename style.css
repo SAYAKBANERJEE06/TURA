@@ -469,6 +469,9 @@ z-index: 1;
   border: none;
   color: rgb(252, 252, 252);
   font-weight:600;
+  width: 60vh;
+  height: 5vh;
+  text-decoration: none;
 }
 .foko input::placeholder{
   color: aliceblue;
